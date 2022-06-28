@@ -10,4 +10,9 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+1. Clone the repository  by running `git@github.com:ObelusFamily/Anythink-Market-tkopa.git`
+2. Ensure that docker and docker-compose is installed in your local machine. Verify that docker is installed by running `docker -v` and `docker-compose -v`.
+3. Navigate into the root of the repository and run `docker-compose up`
+4. Confirm that the application is working by checking the responses to the following endpoints from your browser
+  1. http://localhost:3000/api/ping
+  2. http://localhost:3001/register
